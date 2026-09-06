@@ -11,7 +11,7 @@
     <header>
         <h1>Welcome to Ichiraku</h1>
         <nav>
-            <ul>
+            <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="ramen.html">Menu</a></li>
                 <li><a href="media.html">Media</a></li>
@@ -21,7 +21,15 @@
         </nav>
     </header>
 <main>
-    <div id="ramen-menu">
+    <!-- Secondaly menu links -->
+     <ul class="secondary-menu">
+        <li><a href="#ramen-menu">Ramen Menu</a></li>
+        <li><a href="#udon-menu">Udon Menu</a></li>
+        <li><a href="#side-dishes">Side Dishes</a></li>
+     </ul>
+        <section id="ramen-menu" class="ramen-menu">
+            <h2>Ramen Menu</h2>
+            <p>Our ramen menu features a variety of delicious options, including Tonkotsu Ramen, Miso Ramen, Shoyu Ramen, Shio Ramen
         <!--this is the ramen menu -->
         <table style="width: 1000px;">
             <caption>Ramen Menu</caption>
@@ -73,6 +81,8 @@
                 </tr>
             </tbody>
         </table>
+        </section>
+        <section id="udon-menu" class="udon-menu">
             <table style="width: 1000px;">
                 <caption>Udon Menu</caption>
                 <!-- This is table header-->
@@ -111,6 +121,8 @@
                 </tr>
                 </tbody>
             </table>
+        </section>
+        <section id="side-dishes" class="side-dishes">
         <table style="width: 1000px;">
             <caption>Side Dishes</caption>
             <!-- This is table header-->
@@ -143,7 +155,7 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+        </section>
 </main>
     <footer>
         <p>&copy; 2024 Ichiraku Ramen. All rights reserved.</p>

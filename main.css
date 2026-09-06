@@ -27,7 +27,6 @@ nav ul {
 nav ul li {
     margin: 0 1em;
 }
-
 nav ul li a {
     color: #fff;
     text-decoration: none;
@@ -58,7 +57,16 @@ footer {
     width: 100%;
 }
 
+
 /* this is ramen menu  */
+
+.secondary-menu a {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 0.5em 1em;
+}
+
 table {
     border-collapse: collapse;
    margin-left: auto;
