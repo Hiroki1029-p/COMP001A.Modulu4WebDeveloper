@@ -92,3 +92,36 @@ td {
     padding: 2em;
     justify-content: center;
 }
+
+/* this is contact  */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+    font-size: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.contact-us {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2em;
+}
