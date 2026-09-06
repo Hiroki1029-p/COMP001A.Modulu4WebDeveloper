@@ -87,3 +87,8 @@ td {
     width: 150px;
 }
 
+/* this is media  */
+.social-media {
+    padding: 2em;
+    justify-content: center;
+}
